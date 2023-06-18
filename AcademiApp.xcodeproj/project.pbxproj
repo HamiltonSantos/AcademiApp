@@ -9,25 +9,26 @@
 /* Begin PBXBuildFile section */
 		251C6C0F2A3404690042CF77 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C0E2A3404690042CF77 /* Exercise.swift */; };
 		251C6C162A340A4D0042CF77 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C132A340A4D0042CF77 /* Persistence.swift */; };
-		251C6C172A340A4D0042CF77 /* MapDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C142A340A4D0042CF77 /* MapDataProvider.swift */; };
-		251C6C182A340A4D0042CF77 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C152A340A4D0042CF77 /* ImageDataProvider.swift */; };
 		251C6C202A340F9C0042CF77 /* SessionDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C1A2A340F9C0042CF77 /* SessionDetailRouter.swift */; };
 		251C6C222A340F9C0042CF77 /* SessionDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C1C2A340F9C0042CF77 /* SessionDetailPresenter.swift */; };
 		251C6C232A340F9C0042CF77 /* SessionDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C1D2A340F9C0042CF77 /* SessionDetailInteractor.swift */; };
 		251C6C242A340F9C0042CF77 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C1E2A340F9C0042CF77 /* SessionDetailView.swift */; };
-		257D1C022A2EA3BD00208342 /* AcademiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1C012A2EA3BD00208342 /* AcademiAppApp.swift */; };
-		257D1C042A2EA3BD00208342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1C032A2EA3BD00208342 /* ContentView.swift */; };
+		256D87CE2A3510BB0031FBBD /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 256D87CD2A3510BB0031FBBD /* default.json */; };
+		256D87D42A3512B30031FBBD /* SplitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D87D12A3512B30031FBBD /* SplitImage.swift */; };
+		256D87D52A3512B30031FBBD /* SessionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D87D22A3512B30031FBBD /* SessionListCell.swift */; };
+		256D87DB2A351D7F0031FBBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D87DA2A351D7F0031FBBD /* ContentView.swift */; };
 		257D1C062A2EA3BE00208342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257D1C052A2EA3BE00208342 /* Assets.xcassets */; };
 		257D1C0A2A2EA3BE00208342 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257D1C092A2EA3BE00208342 /* Preview Assets.xcassets */; };
 		257D1C142A2EA3BE00208342 /* AcademiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1C132A2EA3BE00208342 /* AcademiAppTests.swift */; };
 		257D1C1E2A2EA3BE00208342 /* AcademiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1C1D2A2EA3BE00208342 /* AcademiAppUITests.swift */; };
 		257D1C202A2EA3BE00208342 /* AcademiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D1C1F2A2EA3BE00208342 /* AcademiAppUITestsLaunchTests.swift */; };
-		2582D9712A2EC21F00FA87B8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96D2A2EC21F00FA87B8 /* DashboardView.swift */; };
-		2582D9722A2EC21F00FA87B8 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96E2A2EC21F00FA87B8 /* DashboardPresenter.swift */; };
-		2582D9732A2EC21F00FA87B8 /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96F2A2EC21F00FA87B8 /* DashboardRouter.swift */; };
-		2582D9742A2EC21F00FA87B8 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D9702A2EC21F00FA87B8 /* DashboardInteractor.swift */; };
+		2582D9712A2EC21F00FA87B8 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96D2A2EC21F00FA87B8 /* SessionListView.swift */; };
+		2582D9722A2EC21F00FA87B8 /* SessionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96E2A2EC21F00FA87B8 /* SessionListPresenter.swift */; };
+		2582D9732A2EC21F00FA87B8 /* SessionListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D96F2A2EC21F00FA87B8 /* SessionListRouter.swift */; };
+		2582D9742A2EC21F00FA87B8 /* SessionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */; };
 		2582D97C2A2EC2CF00FA87B8 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D9792A2EC2CF00FA87B8 /* Session.swift */; };
 		2582D97D2A2EC2CF00FA87B8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D97A2A2EC2CF00FA87B8 /* DataModel.swift */; };
+		25BF59192A3A9AF80036E836 /* AcademiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BF59182A3A9AF80036E836 /* AcademiApp.swift */; };
 		2726381EAEAD5CF52E80EF5D /* Pods_AcademiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1703FBE4801A01A5DF47DBC6 /* Pods_AcademiAppTests.framework */; };
 		7EDEB3AB33F1FA88C4903C94 /* Pods_AcademiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B9ACB6C44C2F55E9E31F3C /* Pods_AcademiApp.framework */; };
 		9F4A0493B6459373279EAC72 /* Pods_AcademiApp_AcademiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C538830AA988268DC8F81AB /* Pods_AcademiApp_AcademiAppUITests.framework */; };
@@ -55,15 +56,15 @@
 		1703FBE4801A01A5DF47DBC6 /* Pods_AcademiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcademiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		251C6C0E2A3404690042CF77 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		251C6C132A340A4D0042CF77 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		251C6C142A340A4D0042CF77 /* MapDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataProvider.swift; sourceTree = "<group>"; };
-		251C6C152A340A4D0042CF77 /* ImageDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
 		251C6C1A2A340F9C0042CF77 /* SessionDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailRouter.swift; sourceTree = "<group>"; };
 		251C6C1C2A340F9C0042CF77 /* SessionDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailPresenter.swift; sourceTree = "<group>"; };
 		251C6C1D2A340F9C0042CF77 /* SessionDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailInteractor.swift; sourceTree = "<group>"; };
 		251C6C1E2A340F9C0042CF77 /* SessionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		256D87CD2A3510BB0031FBBD /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		256D87D12A3512B30031FBBD /* SplitImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitImage.swift; sourceTree = "<group>"; };
+		256D87D22A3512B30031FBBD /* SessionListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListCell.swift; sourceTree = "<group>"; };
+		256D87DA2A351D7F0031FBBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		257D1BFE2A2EA3BD00208342 /* AcademiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		257D1C012A2EA3BD00208342 /* AcademiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiAppApp.swift; sourceTree = "<group>"; };
-		257D1C032A2EA3BD00208342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		257D1C052A2EA3BE00208342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257D1C072A2EA3BE00208342 /* AcademiApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcademiApp.entitlements; sourceTree = "<group>"; };
 		257D1C092A2EA3BE00208342 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,12 +73,13 @@
 		257D1C192A2EA3BE00208342 /* AcademiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcademiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D1C1D2A2EA3BE00208342 /* AcademiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiAppUITests.swift; sourceTree = "<group>"; };
 		257D1C1F2A2EA3BE00208342 /* AcademiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2582D96D2A2EC21F00FA87B8 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		2582D96E2A2EC21F00FA87B8 /* DashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
-		2582D96F2A2EC21F00FA87B8 /* DashboardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
-		2582D9702A2EC21F00FA87B8 /* DashboardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		2582D96D2A2EC21F00FA87B8 /* SessionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		2582D96E2A2EC21F00FA87B8 /* SessionListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListPresenter.swift; sourceTree = "<group>"; };
+		2582D96F2A2EC21F00FA87B8 /* SessionListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListRouter.swift; sourceTree = "<group>"; };
+		2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListInteractor.swift; sourceTree = "<group>"; };
 		2582D9792A2EC2CF00FA87B8 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		2582D97A2A2EC2CF00FA87B8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		25BF59182A3A9AF80036E836 /* AcademiApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademiApp.swift; sourceTree = "<group>"; };
 		43E7DFC5CB80C9C68FA93711 /* Pods-AcademiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcademiAppTests.release.xcconfig"; path = "Target Support Files/Pods-AcademiAppTests/Pods-AcademiAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		449670B63FC535EDBA0D03BD /* Pods-AcademiApp-AcademiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcademiApp-AcademiAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AcademiApp-AcademiAppUITests/Pods-AcademiApp-AcademiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		44B9ACB6C44C2F55E9E31F3C /* Pods_AcademiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcademiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				251C6C132A340A4D0042CF77 /* Persistence.swift */,
-				251C6C142A340A4D0042CF77 /* MapDataProvider.swift */,
-				251C6C152A340A4D0042CF77 /* ImageDataProvider.swift */,
 			);
 			path = "Data Sources";
 			sourceTree = "<group>";
@@ -136,19 +136,27 @@
 			path = SessionDetailModule;
 			sourceTree = "<group>";
 		};
+		256D87CF2A3512B30031FBBD /* Functional Views */ = {
+			isa = PBXGroup;
+			children = (
+				256D87D12A3512B30031FBBD /* SplitImage.swift */,
+				256D87D22A3512B30031FBBD /* SessionListCell.swift */,
+			);
+			path = "Functional Views";
+			sourceTree = "<group>";
+		};
 		257D1BF52A2EA3BD00208342 = {
 			isa = PBXGroup;
 			children = (
 				257D1C002A2EA3BD00208342 /* AcademiApp */,
 				257D1C072A2EA3BE00208342 /* AcademiApp.entitlements */,
-				257D1C012A2EA3BD00208342 /* AcademiAppApp.swift */,
-				257D1C052A2EA3BE00208342 /* Assets.xcassets */,
-				257D1C032A2EA3BD00208342 /* ContentView.swift */,
 				257D1C122A2EA3BE00208342 /* AcademiAppTests */,
 				257D1C1C2A2EA3BE00208342 /* AcademiAppUITests */,
-				257D1BFF2A2EA3BD00208342 /* Products */,
-				FB88BE728B63E500D5122F1A /* Pods */,
+				257D1C052A2EA3BE00208342 /* Assets.xcassets */,
+				256D87CD2A3510BB0031FBBD /* default.json */,
 				44E0DA91DF97C810C1FFE43C /* Frameworks */,
+				FB88BE728B63E500D5122F1A /* Pods */,
+				257D1BFF2A2EA3BD00208342 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,8 +173,11 @@
 		257D1C002A2EA3BD00208342 /* AcademiApp */ = {
 			isa = PBXGroup;
 			children = (
+				256D87DA2A351D7F0031FBBD /* ContentView.swift */,
+				25BF59182A3A9AF80036E836 /* AcademiApp.swift */,
 				251C6C122A340A4D0042CF77 /* Data Sources */,
 				2582D9772A2EC2B800FA87B8 /* Entities */,
+				256D87CF2A3512B30031FBBD /* Functional Views */,
 				257D1C082A2EA3BE00208342 /* Preview Content */,
 				251C6C192A340F9C0042CF77 /* SessionDetailModule */,
 				2582D96C2A2EC12900FA87B8 /* SessionListModule */,
@@ -202,10 +213,10 @@
 		2582D96C2A2EC12900FA87B8 /* SessionListModule */ = {
 			isa = PBXGroup;
 			children = (
-				2582D9702A2EC21F00FA87B8 /* DashboardInteractor.swift */,
-				2582D96E2A2EC21F00FA87B8 /* DashboardPresenter.swift */,
-				2582D96F2A2EC21F00FA87B8 /* DashboardRouter.swift */,
-				2582D96D2A2EC21F00FA87B8 /* DashboardView.swift */,
+				2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */,
+				2582D96E2A2EC21F00FA87B8 /* SessionListPresenter.swift */,
+				2582D96F2A2EC21F00FA87B8 /* SessionListRouter.swift */,
+				2582D96D2A2EC21F00FA87B8 /* SessionListView.swift */,
 			);
 			path = SessionListModule;
 			sourceTree = "<group>";
@@ -352,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256D87CE2A3510BB0031FBBD /* default.json in Resources */,
 				257D1C0A2A2EA3BE00208342 /* Preview Assets.xcassets in Resources */,
 				257D1C062A2EA3BE00208342 /* Assets.xcassets in Resources */,
 			);
@@ -482,19 +494,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				251C6C202A340F9C0042CF77 /* SessionDetailRouter.swift in Sources */,
-				2582D9732A2EC21F00FA87B8 /* DashboardRouter.swift in Sources */,
+				2582D9732A2EC21F00FA87B8 /* SessionListRouter.swift in Sources */,
 				251C6C232A340F9C0042CF77 /* SessionDetailInteractor.swift in Sources */,
 				251C6C222A340F9C0042CF77 /* SessionDetailPresenter.swift in Sources */,
-				2582D9712A2EC21F00FA87B8 /* DashboardView.swift in Sources */,
-				251C6C182A340A4D0042CF77 /* ImageDataProvider.swift in Sources */,
-				251C6C172A340A4D0042CF77 /* MapDataProvider.swift in Sources */,
-				2582D9722A2EC21F00FA87B8 /* DashboardPresenter.swift in Sources */,
+				25BF59192A3A9AF80036E836 /* AcademiApp.swift in Sources */,
+				2582D9712A2EC21F00FA87B8 /* SessionListView.swift in Sources */,
+				2582D9722A2EC21F00FA87B8 /* SessionListPresenter.swift in Sources */,
 				2582D97C2A2EC2CF00FA87B8 /* Session.swift in Sources */,
-				2582D9742A2EC21F00FA87B8 /* DashboardInteractor.swift in Sources */,
+				256D87DB2A351D7F0031FBBD /* ContentView.swift in Sources */,
+				256D87D52A3512B30031FBBD /* SessionListCell.swift in Sources */,
+				2582D9742A2EC21F00FA87B8 /* SessionListInteractor.swift in Sources */,
 				251C6C242A340F9C0042CF77 /* SessionDetailView.swift in Sources */,
+				256D87D42A3512B30031FBBD /* SplitImage.swift in Sources */,
 				251C6C0F2A3404690042CF77 /* Exercise.swift in Sources */,
-				257D1C042A2EA3BD00208342 /* ContentView.swift in Sources */,
-				257D1C022A2EA3BD00208342 /* AcademiAppApp.swift in Sources */,
 				2582D97D2A2EC2CF00FA87B8 /* DataModel.swift in Sources */,
 				251C6C162A340A4D0042CF77 /* Persistence.swift in Sources */,
 			);
@@ -648,7 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AcademiApp/AcademiApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AcademiApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademiApp/Preview Content\"";
@@ -656,6 +668,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -687,7 +700,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AcademiApp/AcademiApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AcademiApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademiApp/Preview Content\"";
@@ -695,7 +708,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;

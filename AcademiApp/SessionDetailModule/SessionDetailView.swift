@@ -7,46 +7,44 @@
 
 import SwiftUI
 
-struct TripDetailView: View {
-  @ObservedObject var presenter: TripDetailPresenter
-
-  var body: some View {
-    VStack {
-      TextField("Trip Name", text: presenter.setTripName)
-        .textFieldStyle(RoundedBorderTextFieldStyle())
-        .padding([.horizontal])
-      presenter.makeMapView()
-      Text(presenter.distanceLabel)
-      HStack {
-        Spacer()
-        EditButton()
-        Button(action: presenter.addWaypoint) {
-          Text("Add")
+struct SessionDetailView: View {
+    @ObservedObject var presenter: SessionDetailPresenter
+    
+    var body: some View {
+        VStack {
+            TextField("Session Name", text: presenter.setSessionName)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding([.horizontal])
+            Text("test")
+            HStack {
+                Spacer()
+                EditButton()
+                Button(action: presenter.addExercise) {
+                    Text("Add")
+                }
+            }.padding([.horizontal])
+            List {
+                ForEach(presenter.exercises, content: presenter.cell)
+                    .onDelete(perform: presenter.didDeleteExercise(_:))
+            }
         }
-      }.padding([.horizontal])
-      List {
-        ForEach(presenter.waypoints, content: presenter.cell)
-          .onMove(perform: presenter.didMoveWaypoint(fromOffsets:toOffset:))
-          .onDelete(perform: presenter.didDeleteWaypoint(_:))
-      }
+        .navigationBarTitle(Text(presenter.sessionName), displayMode: .inline)
+        .navigationBarItems(trailing: Button("Save", action: presenter.save))
     }
-    .navigationBarTitle(Text(presenter.tripName), displayMode: .inline)
-    .navigationBarItems(trailing: Button("Save", action: presenter.save))
-  }
 }
 
-struct TripDetailView_Previews: PreviewProvider {
-  static var previews: some View {
-    let model = DataModel.sample
-    let trip = model.trips[1]
-    let mapProvider = RealMapDataProvider()
-    let presenter = TripDetailPresenter(interactor:
-      TripDetailInteractor(
-        trip: trip,
-        model: model,
-        mapInfoProvider: mapProvider))
-    return NavigationView {
-      TripDetailView(presenter: presenter)
+struct SessionDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        let model = DataModel.sample
+        let session = model.sessions[1]
+        let presenter = SessionDetailPresenter(
+            interactor:
+                SessionDetailInteractor(
+                    session: session,
+                    model: model)
+        )
+        return NavigationView {
+            SessionDetailView(presenter: presenter)
+        }
     }
-  }
 }

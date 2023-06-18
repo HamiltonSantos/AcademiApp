@@ -1,0 +1,18 @@
+{
+    "sessions": [
+        {
+            "id" : "6B858FCD-3BF9-4EE0-A9DF-9B95011C3175",
+            "name" : "Chest day",
+            "exercises": [
+                {"name": "Bench Press", "id" : "FA5D3400-3304-4685-AA18-E1468447A70A"}
+            ]
+        },
+        {
+            "id" : "1D81D088-D03E-4DB8-8695-58F9A42A2386",
+            "name" : "Back Day",
+            "exercises": [
+                {"name": "Row", "id" : "25FED5F5-935F-4842-9B8C-94427A80190D"}
+            ]
+        }
+    ]
+}
