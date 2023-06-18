@@ -11,7 +11,7 @@ struct SplitImage: View {
   var images: [UIImage]
 
   func defaultImageView() -> some View {
-    Image("no_waypoints")
+    Image("image2")
       .resizable()
       .aspectRatio(contentMode: .fill)
   }
