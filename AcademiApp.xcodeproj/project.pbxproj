@@ -125,7 +125,7 @@
 			path = "Data Sources";
 			sourceTree = "<group>";
 		};
-		251C6C192A340F9C0042CF77 /* SessionDetailModule */ = {
+		251C6C192A340F9C0042CF77 /* SessionDetail */ = {
 			isa = PBXGroup;
 			children = (
 				251C6C1A2A340F9C0042CF77 /* SessionDetailRouter.swift */,
@@ -133,7 +133,7 @@
 				251C6C1D2A340F9C0042CF77 /* SessionDetailInteractor.swift */,
 				251C6C1E2A340F9C0042CF77 /* SessionDetailView.swift */,
 			);
-			path = SessionDetailModule;
+			path = SessionDetail;
 			sourceTree = "<group>";
 		};
 		256D87CF2A3512B30031FBBD /* Functional Views */ = {
@@ -179,8 +179,8 @@
 				2582D9772A2EC2B800FA87B8 /* Entities */,
 				256D87CF2A3512B30031FBBD /* Functional Views */,
 				257D1C082A2EA3BE00208342 /* Preview Content */,
-				251C6C192A340F9C0042CF77 /* SessionDetailModule */,
-				2582D96C2A2EC12900FA87B8 /* SessionListModule */,
+				251C6C192A340F9C0042CF77 /* SessionDetail */,
+				2582D96C2A2EC12900FA87B8 /* SessionList */,
 			);
 			path = AcademiApp;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			path = AcademiAppUITests;
 			sourceTree = "<group>";
 		};
-		2582D96C2A2EC12900FA87B8 /* SessionListModule */ = {
+		2582D96C2A2EC12900FA87B8 /* SessionList */ = {
 			isa = PBXGroup;
 			children = (
 				2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */,
@@ -218,7 +218,7 @@
 				2582D96F2A2EC21F00FA87B8 /* SessionListRouter.swift */,
 				2582D96D2A2EC21F00FA87B8 /* SessionListView.swift */,
 			);
-			path = SessionListModule;
+			path = SessionList;
 			sourceTree = "<group>";
 		};
 		2582D9772A2EC2B800FA87B8 /* Entities */ = {
@@ -687,7 +687,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonsantos.AcademiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -726,7 +728,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamiltonsantos.AcademiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

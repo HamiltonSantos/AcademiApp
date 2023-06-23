@@ -10,6 +10,7 @@ import Combine
 final class DataModel {
     private let persistence = Persistence()
     
+    @Published var username: String = ""
     @Published var sessions: [Session] = []
     
     private var cancellables = Set<AnyCancellable>()
