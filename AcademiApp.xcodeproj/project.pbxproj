@@ -17,6 +17,7 @@
 		2544C6862A453C62009150F7 /* SessionDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544C6822A453531009150F7 /* SessionDetailPresenter.swift */; };
 		2544C6872A453C62009150F7 /* SessionDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544C6842A453531009150F7 /* SessionDetailRouter.swift */; };
 		2544C6882A453C62009150F7 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544C6832A453531009150F7 /* SessionDetailView.swift */; };
+		2564E1ED2A46604C00E44BE0 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2564E1EC2A46604C00E44BE0 /* VideoView.swift */; };
 		256D87CE2A3510BB0031FBBD /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 256D87CD2A3510BB0031FBBD /* default.json */; };
 		256D87D42A3512B30031FBBD /* SplitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D87D12A3512B30031FBBD /* SplitImage.swift */; };
 		256D87D52A3512B30031FBBD /* SessionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D87D22A3512B30031FBBD /* SessionListCell.swift */; };
@@ -68,6 +69,7 @@
 		2544C6822A453531009150F7 /* SessionDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailPresenter.swift; sourceTree = "<group>"; };
 		2544C6832A453531009150F7 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
 		2544C6842A453531009150F7 /* SessionDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailRouter.swift; sourceTree = "<group>"; };
+		2564E1EC2A46604C00E44BE0 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		256D87CD2A3510BB0031FBBD /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
 		256D87D12A3512B30031FBBD /* SplitImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitImage.swift; sourceTree = "<group>"; };
 		256D87D22A3512B30031FBBD /* SessionListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListCell.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			children = (
 				256D87D12A3512B30031FBBD /* SplitImage.swift */,
 				256D87D22A3512B30031FBBD /* SessionListCell.swift */,
+				2564E1EC2A46604C00E44BE0 /* VideoView.swift */,
 			);
 			path = "Functional Views";
 			sourceTree = "<group>";
@@ -536,6 +539,7 @@
 				2544C6852A453C62009150F7 /* SessionDetailInteractor.swift in Sources */,
 				2582D9742A2EC21F00FA87B8 /* SessionListInteractor.swift in Sources */,
 				251C6C242A340F9C0042CF77 /* ExerciseDetailView.swift in Sources */,
+				2564E1ED2A46604C00E44BE0 /* VideoView.swift in Sources */,
 				256D87D42A3512B30031FBBD /* SplitImage.swift in Sources */,
 				2544C6882A453C62009150F7 /* SessionDetailView.swift in Sources */,
 				251C6C0F2A3404690042CF77 /* Exercise.swift in Sources */,

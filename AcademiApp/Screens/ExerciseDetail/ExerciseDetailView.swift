@@ -12,10 +12,15 @@ struct ExerciseDetailView: View {
     
     var body: some View {
         VStack {
-            TextField("Exercise Name", text: presenter.setExerciseName)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding([.horizontal])
-            Text("test")
+            ZStack {
+                TextEditor(text: presenter.setExerciseName)
+                    .foregroundStyle(.secondary)
+                    .padding(.horizontal)
+            }
+            VideoView(videoID: "TukPaRhRlZQ")
+                .cornerRadius(12)
+                .padding(.horizontal, 24)
+            Spacer()
             HStack {
                 Spacer()
                 EditButton()
@@ -29,7 +34,7 @@ struct ExerciseDetailView: View {
 struct ExerciseDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let model = DataModel.sample
-        let exercise = model.sessions[1].exercises[1]
+        let exercise = model.sessions[0].exercises[0]
         let presenter = ExerciseDetailPresenter(
             interactor:
                 ExerciseDetailInteractor(

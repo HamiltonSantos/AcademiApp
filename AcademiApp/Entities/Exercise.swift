@@ -22,7 +22,7 @@ final class Exercise {
         name = ""
         description = ""
         restTime = 0
-        videoURL = URL(string: "https://www.youtube.com/watch?v=Qw0wNj4ZJpc")!
+        videoURL = URL(string: "https://www.youtube.com/watch?v=TukPaRhRlZQ")!
     }
     
     required init(from decoder: Decoder) throws {
