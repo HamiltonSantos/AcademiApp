@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct AcademiApp: App {
     var body: some Scene {
-        WindowGroup {
-            let model = DataModel.sample
+        let model = DataModel()
+        model.load()
+        return WindowGroup {
             ContentView().environmentObject(model)
         }
     }

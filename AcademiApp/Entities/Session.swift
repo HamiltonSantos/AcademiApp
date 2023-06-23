@@ -7,9 +7,11 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 final class Session {
     @Published var name: String = ""
+    @Published var image: Image = Image("backDay")
     @Published var exercises: [Exercise] = []
     let id: UUID
     
@@ -26,7 +28,7 @@ final class Session {
     
     func addExercise() {
         let exercise = exercises.last?.copy() ?? Exercise()
-        exercise.name = "New Exercise"
+        exercise.name = ""
         exercises.append(exercise)
     }
 }

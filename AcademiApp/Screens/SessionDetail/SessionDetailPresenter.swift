@@ -51,7 +51,7 @@ class SessionDetailPresenter: ObservableObject {
     }
     
     func cell(for exercise: Exercise) -> some View {
-        let destination = router.makeExerciseView(for: exercise)
+        let destination = router.makeExerciseView(for: exercise, model: interactor.model)
             .onDisappear(perform: interactor.updateExercises)
         return NavigationLink(destination: destination) {
             Text(exercise.name)

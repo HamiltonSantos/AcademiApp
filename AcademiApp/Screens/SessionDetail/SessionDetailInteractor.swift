@@ -10,7 +10,7 @@ import MapKit
 
 class SessionDetailInteractor {
     private let session: Session
-    private let model: DataModel
+    let model: DataModel
     
     private var cancellables = Set<AnyCancellable>()
     

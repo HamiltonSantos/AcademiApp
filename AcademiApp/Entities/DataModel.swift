@@ -33,8 +33,8 @@ final class DataModel {
     
     func pushNewSession() {
         let new = Session()
-        new.name = "New Session"
-        sessions.insert(new, at: 0)
+        new.name = ""
+        sessions.insert(new, at: sessions.endIndex)
     }
     
     func removeSession(session: Session) {
