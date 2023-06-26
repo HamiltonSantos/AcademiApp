@@ -13,16 +13,26 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Welcome, \(presenter.userName)!")
-                    .font(.title)
-                    .padding()
-                Text("Your objective is \(presenter.userObjective)")
-                    .font(.title2)
-                    .padding()
-                Text("You are in session \(presenter.currentSession) of \(presenter.lastSession)")
-                    .font(.title2)
-                    .padding()
-                Spacer()
+                Image("backDay")
+                    .ignoresSafeArea(edges: .top)
+                    .frame(height: 300)
+                    .clipped()
+                
+                CircleImage()
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
+                
+                VStack(alignment: .leading) {
+                    Text("Welcome, \(presenter.userName)!")
+                        .font(.title)
+                    HStack {
+                        Text("Your objective is \(presenter.userObjective)")
+                            .font(.subheadline)
+                        Spacer()
+                        Text("You are in session \(presenter.currentSession) of \(presenter.lastSession)")
+                            .font(.subheadline)
+                    }
+                }
                 NavigationLink(destination: presenter.makeSessionListView(for: DataModel.sample)) {
                     Text("Start Session")
                         .font(.title)
