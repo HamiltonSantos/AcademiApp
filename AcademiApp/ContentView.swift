@@ -12,9 +12,12 @@ struct ContentView: View {
 
   var body: some View {
     NavigationView {
-      SessionListView(presenter:
-      SessionListPresenter(interactor:
-        SessionListInteractor(model: model)))
+      HomeView(
+        presenter: HomePresenter(
+          interactor: HomeInteractor(
+            model: model)
+            )
+      )            
     }
   }
 }

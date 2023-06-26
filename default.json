@@ -1,4 +1,11 @@
 {
+    "user" : {
+        "name" : "Rafael",
+        "id" : "0A72FBEC-C72F-437F-BC7A-C463702FF353",
+        "objective" : "Hipertrofia",
+        "currentSession" : 0,
+        "lastSession" : 100
+    },
     "sessions" : [
         {
             "name" : "PEITO E OMBRO",

@@ -10,10 +10,12 @@ import Combine
 import SwiftUI
 
 final class Session {
+    
+    let id: UUID
     @Published var name: String = ""
     @Published var image: Image = Image("backDay")
     @Published var exercises: [Exercise] = []
-    let id: UUID
+    
     
     init() {
         id = UUID()
