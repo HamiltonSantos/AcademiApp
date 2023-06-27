@@ -15,7 +15,6 @@ struct SessionDetailView: View {
             TextField("Session Name", text: presenter.setSessionName)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding([.horizontal])
-            Text("test")
             HStack {
                 Spacer()
                 EditButton()
@@ -36,7 +35,7 @@ struct SessionDetailView: View {
 struct SessionDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let model = DataModel.sample
-        let session = model.sessions[1]
+        let session = model.sessions[0]
         let presenter = SessionDetailPresenter(
             interactor:
                 SessionDetailInteractor(

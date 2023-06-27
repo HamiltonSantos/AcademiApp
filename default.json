@@ -1,7 +1,7 @@
 {
     "user" : {
         "name" : "Rafael",
-        "id" : "0A72FBEC-C72F-437F-BC7A-C463702FF353",
+        "id" : "0ac411ed-94c9-48fc-876d-0c05c2232f9e",
         "objective" : "Hipertrofia",
         "currentSession" : 0,
         "lastSession" : 100
@@ -12,69 +12,69 @@
             "exercises" : [
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "b68cf63f-5f89-4b80-9322-2f4b7cc5525d",
                     "restTime" : 60,
                     "name" : "Panturrilha em pé na maquina ou smith com step",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "c97cc540-f97a-448d-ab06-28ee390f25ab",
                     "restTime" : 60,
                     "name" : "Panturrilha sentado",
                     "description" : "Pico de contração de 2 segundos e rest pause\n(1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 pauses)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "018c4038-78e9-403c-8e38-1c8145469c20",
                     "restTime" : 60,
                     "name" : "Supino inclinado smith ou máquina",
                     "description" : "Progressão de carga e strip set com mudança de velocidade de contração\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + strip set com mudaça de velocidade de contração)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "1aa0ecd2-572b-4ed1-af33-ba7365718b8f",
                     "restTime" : 60,
                     "name" : "Supino reto halteres",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "cb58607a-538e-407e-892b-743a1655c68d",
                     "restTime" : 60,
                     "name" : "Supino inclinado com halteres combinado com crucifixo inclinado com halteres",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "f64b30a6-226d-4ab4-9048-24fcfd390497",
                     "restTime" : 60,
                     "name" : "Supino declinado",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "6b65d8d4-02da-4d3c-83e8-5e6eab89146f",
                     "restTime" : 60,
                     "name" : "Voador",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "297e6fb4-f251-4fd4-9791-bd7244fcf10a",
                     "restTime" : 60,
                     "name" : "elevação frontal sentado com halteres",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 },
                 {
                     "videoURL" : "https:\/\/www.youtube.com\/watch?v=TukPaRhRlZQ",
-                    "id" : "7DFE8788-686A-4037-A774-A1CE41905E4A",
+                    "id" : "bf7410e4-a2c1-463f-be52-bf211473d424",
                     "restTime" : 60,
                     "name" : "Elevação lateral",
                     "description" : "Progressão de carga e drop\n(1x 15 a 20) - (1x 10 a 15) - (1x 8 a 12) - (1x 6 a 10 + 2 drops)"
                 }
             ],
-            "id" : "0A72FBEC-C72F-437F-BC7A-C463702FF353"
+            "id" : "66d21f37-5986-459b-a988-4cc595e1f902"
         }
     ]
 }

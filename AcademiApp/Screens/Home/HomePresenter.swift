@@ -14,7 +14,7 @@ class HomePresenter: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
-    @Published var userName: String = "Default User"
+    @Published var userName: String = "Hamilton"
     let setUserName: Binding<String>
     @Published var userObjective: String = "Hypertrophy"
     let setUserObjective: Binding<String>

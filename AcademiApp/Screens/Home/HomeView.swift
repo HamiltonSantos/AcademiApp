@@ -11,7 +11,6 @@ struct HomeView: View {
     @ObservedObject var presenter: HomePresenter
     
     var body: some View {
-        NavigationView {
             VStack {
                 Image("backDay")
                     .ignoresSafeArea(edges: .top)
@@ -19,6 +18,7 @@ struct HomeView: View {
                     .clipped()
                 
                 CircleImage()
+                    .frame(width: UIScreen.main.bounds.width / 2, height: UIScreen.main.bounds.width / 2)
                     .offset(y: -130)
                     .padding(.bottom, -130)
                 
@@ -41,7 +41,7 @@ struct HomeView: View {
                 Spacer()
             }
             .navigationBarTitle("Home")
-        }
+            .ignoresSafeArea(edges: .top)
     }
 }
 
