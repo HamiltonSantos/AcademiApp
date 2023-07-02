@@ -57,4 +57,8 @@ class HomePresenter: ObservableObject {
     func makeSessionListView(for dataModel: DataModel) -> some View {
         router.makeSessionListView(for: dataModel)
     }
+
+    func makeCropViewFor(model: CropModel) -> some View {
+        router.makeCropViewFor(model: model)
+    }
 }

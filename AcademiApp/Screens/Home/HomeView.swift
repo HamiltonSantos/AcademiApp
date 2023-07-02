@@ -11,16 +11,31 @@ struct HomeView: View {
     @ObservedObject var presenter: HomePresenter
     
     var body: some View {
+        NavigationStack {
             VStack {
-                Image("backDay")
-                    .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
-                    .clipped()
-                
-                CircleImage()
-                    .frame(width: UIScreen.main.bounds.width / 2, height: UIScreen.main.bounds.width / 2)
-                    .offset(y: -130)
-                    .padding(.bottom, -130)
+                ZStack {
+                    Image("backDay")
+                        .ignoresSafeArea(edges: .top)
+                        .frame(height: 300)
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: UIScreen.main.bounds.width, height: 300)
+                        .clipped()
+                }
+                HStack {
+                    ZStack {
+                        CircleImage()
+                            .frame(width: UIScreen.main.bounds.width / 2, height: UIScreen.main.bounds.width / 2)
+                            .offset(y: -130)
+                            .padding(.bottom, -130)
+                        NavigationLink(destination: presenter.makeCropViewFor(model: .profile), label: {
+                            Image(systemName: "photo.on.rectangle.angled")
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(Color.black.opacity(0.5))
+                                .clipShape(Circle())
+                        })
+                    }
+                }
                 
                 VStack(alignment: .leading) {
                     Text("Welcome, \(presenter.userName)!")
@@ -40,8 +55,31 @@ struct HomeView: View {
                 }
                 Spacer()
             }
-            .navigationBarTitle("Home")
             .ignoresSafeArea(edges: .top)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        // presenter.showMenu()
+                    }, label: {
+                        Image(systemName: "sidebar.left")
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.black.opacity(0.5))
+                            .clipShape(Circle())
+                        
+                    })
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: presenter.makeCropViewFor(model: .banner), label: {
+                        Image(systemName: "photo.on.rectangle.angled")
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.black.opacity(0.5))
+                            .clipShape(Circle())
+                    })
+                }
+            }
+        }
     }
 }
 

@@ -33,6 +33,11 @@
 		2582D9742A2EC21F00FA87B8 /* SessionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */; };
 		2582D97C2A2EC2CF00FA87B8 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D9792A2EC2CF00FA87B8 /* Session.swift */; };
 		2582D97D2A2EC2CF00FA87B8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582D97A2A2EC2CF00FA87B8 /* DataModel.swift */; };
+		25A876DB2A51BDAD00BC9099 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A876DA2A51BDAD00BC9099 /* CropView.swift */; };
+		25A876DE2A51C1D800BC9099 /* CropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A876DD2A51C1D800BC9099 /* CropModel.swift */; };
+		25A876E12A51C3C200BC9099 /* CropInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A876E02A51C3C200BC9099 /* CropInteractor.swift */; };
+		25A876E32A51C3D000BC9099 /* CropPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A876E22A51C3D000BC9099 /* CropPresenter.swift */; };
+		25A876E52A51C46800BC9099 /* CropRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A876E42A51C46800BC9099 /* CropRouter.swift */; };
 		25BF59192A3A9AF80036E836 /* AcademiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BF59182A3A9AF80036E836 /* AcademiApp.swift */; };
 		25C860872A49177E0045B4E6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C860862A49177E0045B4E6 /* CircleImage.swift */; };
 		25C860892A4917F50045B4E6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C860882A4917F50045B4E6 /* HomeView.swift */; };
@@ -95,6 +100,11 @@
 		2582D9702A2EC21F00FA87B8 /* SessionListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListInteractor.swift; sourceTree = "<group>"; };
 		2582D9792A2EC2CF00FA87B8 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		2582D97A2A2EC2CF00FA87B8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		25A876DA2A51BDAD00BC9099 /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		25A876DD2A51C1D800BC9099 /* CropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CropModel.swift; path = Model/CropModel.swift; sourceTree = "<group>"; };
+		25A876E02A51C3C200BC9099 /* CropInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropInteractor.swift; sourceTree = "<group>"; };
+		25A876E22A51C3D000BC9099 /* CropPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropPresenter.swift; sourceTree = "<group>"; };
+		25A876E42A51C46800BC9099 /* CropRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropRouter.swift; sourceTree = "<group>"; };
 		25BF59182A3A9AF80036E836 /* AcademiApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademiApp.swift; sourceTree = "<group>"; };
 		25C860862A49177E0045B4E6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		25C860882A4917F50045B4E6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -161,6 +171,7 @@
 		2544C67F2A4534DF009150F7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				25A876DC2A51C1AC00BC9099 /* CropImage */,
 				25C8608A2A4917FB0045B4E6 /* Home */,
 				2544C6802A453501009150F7 /* ExerciseDetail */,
 				251C6C192A340F9C0042CF77 /* SessionDetail */,
@@ -275,6 +286,18 @@
 				25C860922A491C160045B4E6 /* User.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		25A876DC2A51C1AC00BC9099 /* CropImage */ = {
+			isa = PBXGroup;
+			children = (
+				25A876DD2A51C1D800BC9099 /* CropModel.swift */,
+				25A876DA2A51BDAD00BC9099 /* CropView.swift */,
+				25A876E02A51C3C200BC9099 /* CropInteractor.swift */,
+				25A876E22A51C3D000BC9099 /* CropPresenter.swift */,
+				25A876E42A51C46800BC9099 /* CropRouter.swift */,
+			);
+			path = CropImage;
 			sourceTree = "<group>";
 		};
 		25C8608A2A4917FB0045B4E6 /* Home */ = {
@@ -550,16 +573,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A876E52A51C46800BC9099 /* CropRouter.swift in Sources */,
 				251C6C202A340F9C0042CF77 /* ExerciseDetailRouter.swift in Sources */,
 				2582D9732A2EC21F00FA87B8 /* SessionListRouter.swift in Sources */,
+				25A876E12A51C3C200BC9099 /* CropInteractor.swift in Sources */,
 				2544C6862A453C62009150F7 /* SessionDetailPresenter.swift in Sources */,
 				251C6C232A340F9C0042CF77 /* ExerciseDetailInteractor.swift in Sources */,
 				2544C6872A453C62009150F7 /* SessionDetailRouter.swift in Sources */,
 				25C860932A491C160045B4E6 /* User.swift in Sources */,
 				251C6C222A340F9C0042CF77 /* ExerciseDetailPresenter.swift in Sources */,
+				25A876DB2A51BDAD00BC9099 /* CropView.swift in Sources */,
 				25BF59192A3A9AF80036E836 /* AcademiApp.swift in Sources */,
 				2582D9712A2EC21F00FA87B8 /* SessionListView.swift in Sources */,
 				25C8608E2A4918260045B4E6 /* HomeInteractor.swift in Sources */,
+				25A876E32A51C3D000BC9099 /* CropPresenter.swift in Sources */,
 				2582D9722A2EC21F00FA87B8 /* SessionListPresenter.swift in Sources */,
 				2582D97C2A2EC2CF00FA87B8 /* Session.swift in Sources */,
 				256D87DB2A351D7F0031FBBD /* ContentView.swift in Sources */,
@@ -574,6 +601,7 @@
 				256D87D42A3512B30031FBBD /* SplitImage.swift in Sources */,
 				2544C6882A453C62009150F7 /* SessionDetailView.swift in Sources */,
 				251C6C0F2A3404690042CF77 /* Exercise.swift in Sources */,
+				25A876DE2A51C1D800BC9099 /* CropModel.swift in Sources */,
 				25C860872A49177E0045B4E6 /* CircleImage.swift in Sources */,
 				2582D97D2A2EC2CF00FA87B8 /* DataModel.swift in Sources */,
 				251C6C162A340A4D0042CF77 /* Persistence.swift in Sources */,
