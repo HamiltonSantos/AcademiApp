@@ -27,7 +27,7 @@ struct HomeView: View {
                             .frame(width: UIScreen.main.bounds.width / 2, height: UIScreen.main.bounds.width / 2)
                             .offset(y: -130)
                             .padding(.bottom, -130)
-                        NavigationLink(destination: presenter.makeCropViewFor(model: .profile), label: {
+                        NavigationLink(destination: presenter.makeCropViewFor(model: .square), label: {
                             Image(systemName: "photo.on.rectangle.angled")
                                 .foregroundColor(.white)
                                 .padding()

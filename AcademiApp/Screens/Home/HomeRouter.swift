@@ -15,9 +15,7 @@ class HomeRouter {
         return SessionListView(presenter: presenter)
     }
 
-    func makeCropViewFor(model: CropModel) -> some View {
-        let interactor = CropInteractor(cropModel: model)
-        let presenter = CropPresenter(interactor: interactor)
-        return CropView(presenter: presenter)
+    func makeCropViewFor(model: Crop) -> some View {
+        return Spacer()
     }
 }
